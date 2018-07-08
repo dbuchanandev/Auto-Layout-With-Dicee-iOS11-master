@@ -43,7 +43,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="263.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Shd-6r-u8r">
-                                        <rect key="frame" x="80" y="79" width="215" height="105"/>
+                                        <rect key="frame" x="80.5" y="79" width="215" height="105"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="105" id="4VY-la-Qwd"/>
                                             <constraint firstAttribute="width" constant="215" id="a1x-Rk-lKM"/>
@@ -59,10 +59,10 @@
                                 <rect key="frame" x="0.0" y="383.5" width="375" height="283.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aA5-KN-yIW">
-                                        <rect key="frame" x="122" y="115.5" width="131" height="52"/>
+                                        <rect key="frame" x="122.5" y="115.5" width="131" height="52"/>
                                         <color key="backgroundColor" red="0.78738981490000004" green="0.2464441359" blue="0.27221894260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="131" id="sUm-FL-tXI"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="131" id="sUm-FL-tXI"/>
                                             <constraint firstAttribute="height" constant="52" id="vxD-VG-yxn"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
@@ -93,12 +93,12 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Lec-eO-ox7" secondAttribute="bottom" id="GKl-lc-qvC"/>
                             <constraint firstAttribute="trailing" secondItem="Lec-eO-ox7" secondAttribute="trailing" id="M2V-Xp-559"/>
                             <constraint firstItem="eib-7K-rKl" firstAttribute="top" secondItem="Ow2-Tb-Lav" secondAttribute="bottom" id="MW3-59-eB9"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="K0W-NI-xky" secondAttribute="bottom" id="XVp-B4-gDZ"/>
                             <constraint firstAttribute="trailing" secondItem="Ow2-Tb-Lav" secondAttribute="trailing" id="a3K-jA-aUs"/>
                             <constraint firstItem="Ow2-Tb-Lav" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="drV-N9-s3J"/>
                             <constraint firstItem="Lec-eO-ox7" firstAttribute="top" secondItem="eib-7K-rKl" secondAttribute="bottom" id="ffk-4E-Qsx"/>
                             <constraint firstItem="Lec-eO-ox7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="gd8-RZ-I5m"/>
                             <constraint firstAttribute="trailing" secondItem="K0W-NI-xky" secondAttribute="trailing" id="kpC-gJ-1eA"/>
+                            <constraint firstAttribute="bottom" secondItem="K0W-NI-xky" secondAttribute="bottom" id="mnh-3f-xb5"/>
                             <constraint firstItem="K0W-NI-xky" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="sdz-YM-K6e"/>
                             <constraint firstItem="K0W-NI-xky" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="wTZ-1o-gow"/>
                             <constraint firstItem="Ow2-Tb-Lav" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="zGK-x8-EAT"/>
